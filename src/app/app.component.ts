@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Store} from './store';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  todos$ = this.store.select<any[]>('todos');
+
+  constructor(private store: Store) {
+    this.store.set('todos', [
+      {id: 1, name: 'Learning Angular'},
+      {id: 2, name: 'Learning Redux'}
+    ]);
+  }
 }

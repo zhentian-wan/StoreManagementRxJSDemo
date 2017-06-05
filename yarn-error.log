@@ -1,0 +1,71 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Yarn version: 
+  0.23.4
+
+Node version: 
+  7.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "state-management-rx-jsdemo",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^4.0.0",
+      "@angular/compiler": "^4.0.0",
+      "@angular/core": "^4.0.0",
+      "@angular/forms": "^4.0.0",
+      "@angular/http": "^4.0.0",
+      "@angular/platform-browser": "^4.0.0",
+      "@angular/platform-browser-dynamic": "^4.0.0",
+      "@angular/router": "^4.0.0",
+      "core-js": "^2.4.1",
+      "rxjs": "^5.1.0",
+      "zone.js": "^0.8.4"
+    },
+    "devDependencies": {
+      "@angular/cli": "1.0.4",
+      "@angular/compiler-cli": "^4.0.0",
+      "@types/jasmine": "2.5.38",
+      "@types/node": "~6.0.60",
+      "codelyzer": "~2.0.0",
+      "jasmine-core": "~2.5.2",
+      "jasmine-spec-reporter": "~3.2.0",
+      "karma": "~1.4.1",
+      "karma-chrome-launcher": "~2.1.1",
+      "karma-cli": "~1.0.1",
+      "karma-jasmine": "~1.1.0",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "karma-coverage-istanbul-reporter": "^0.2.0",
+      "protractor": "~5.1.0",
+      "ts-node": "~2.0.0",
+      "tslint": "~4.5.0",
+      "typescript": "~2.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/zhentianwan/Library/Caches/Yarn/v1/npm-zone.js-0.8.11-742befb17fbc49a571712b8c7d87e58ca26fd886'
